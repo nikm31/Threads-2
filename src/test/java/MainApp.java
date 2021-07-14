@@ -9,7 +9,6 @@ public class MainApp {
             System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");
 
             CyclicBarrier cB = new CyclicBarrier(5);
-
             Race race = new Race(new Road(60), new Tunnel(), new Road(40));
             Car[] cars = new Car[CARS_COUNT];
             for (int i = 0; i < cars.length; i++) {
